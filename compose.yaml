@@ -1,6 +1,7 @@
 services:
   db:
     image: postgres:18
+    platform: linux/amd64
     environment:
       POSTGRES_DB: corporate
       POSTGRES_USER: corporate_user
