@@ -1,5 +1,8 @@
 name: Corporate Data Platform CI
 on:
+permissions:
+    contents: read
+    packages: write
   push:
     branches:
       - main
